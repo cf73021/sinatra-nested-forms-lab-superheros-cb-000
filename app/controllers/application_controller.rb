@@ -15,7 +15,7 @@ class App < Sinatra::Base
         Hero.new(details)
       end
 
-      @ships = Ship.all
+      @heroes = Ship.all
        erb :'pirates/show'
      end
 end
