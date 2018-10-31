@@ -1,7 +1,7 @@
 class Team
   attr_accessor :name, :motto
 
-  PIRATES = []
+  all = []
    def initialize(args)
     @name = args[:name]
     @weight = args[:motto]
