@@ -6,5 +6,9 @@ class Hero
     @name = args[:name]
     @power = args[:power]
     @bio = args[:bio]
+    @all << self
   end
+
+  def self.all
+
 end
