@@ -3,7 +3,7 @@ class Team
 
    def initialize(args)
     @name = args[:name]
-    @weight = args[:motto]
+    @motto = args[:motto]
   end
 
 end
